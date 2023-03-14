@@ -1,0 +1,33 @@
+body{
+    background-color: gray;
+}
+
+#divMain{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+#divOptions{
+    background-color: lightblue;
+    height: 600px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+#divGrid{
+    display: grid;
+    height: 600px;
+    width: 600px;
+}
+
+.tile{
+    background-color: white;
+}
+
+#sizeValue{
+    font: 25px bold black;
+    text-align: center;
+}
+
